@@ -60,7 +60,7 @@
 
 > *(Replace these with your real projects!)*
 
-### 🔬 🧠 Tabular ML Pipeline(https://github.com/pradeepkumarkommuri/tabular-ml-pipeline/)
+### 🔬 🧠 [Tabular ML Pipeline](https://github.com/pradeepkumarkommuri/tabular-ml-pipeline/)
 
 > A production-style end-to-end machine learning pipeline for tabular data — built with Python, PyTorch, and modular data engineering principles.
 
@@ -70,8 +70,18 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Code Style](https://img.shields.io/badge/code%20style-black-000000?style=flat-square)](https://github.com/psf/black)
 
-### 📈 [Project Name 2](https://github.com/your-username/project-2)
-Brief description of what this project does, the problem it solves, and key technologies used.  
+### 📈 [Neural ETL Pipeline](https://github.com/pradeepkumarkommuri/neural-etl-pipeline))
+## Overview
+
+Neural ETL Pipeline ingests data from heterogeneous sources (PostgreSQL, REST APIs, Parquet/CSV files), applies ML-powered quality checks, and loads clean records into a SQL data warehouse — all with async parallelism, retry logic, and full observability.
+
+```
+Sources              Extract          Transform           ML Filter          Load
+─────────            ───────          ─────────           ─────────          ────
+PostgreSQL  ─────►  Streaming  ──►  Validation  ──►  TF Autoencoder ──►  Warehouse
+REST APIs           Batching         Type Cast          Anomaly Score       PostgreSQL
+Parquet/CSV         Async I/O        Checksums          Quarantine          Bulk Insert
+``` 
 `TensorFlow` `SQL` `ETL`
 
 ### 🤖 [Project Name 3](https://github.com/your-username/project-3)
