@@ -84,8 +84,8 @@ Parquet/CSV         Async I/O        Checksums          Quarantine          Bulk
 ``` 
 `TensorFlow` `SQL` `ETL`
 
-### 🤖 [Project Name 3](https://github.com/your-username/project-3)
-Brief description of what this project does, the problem it solves, and key technologies used.  
+### 🤖 [Fivetran Monitoring](https://github.com/pradeepkumarkommuri/fivetran-monitor)
+Fivetran Sync Monitor automatically detects broken, delayed, and anomalous data pipeline syncs across all your Fivetran connectors using Apache Spark for feature engineering, Isolation Forest + Prophet for ML-based anomaly detection and forecasting, and Apache Airflow for orchestration on Kubernetes — all deployed as a production-grade system with real-time alerts via ntfy.sh and Outlook email. 
 `Spark` `Airflow` `ML`
 
 ---
